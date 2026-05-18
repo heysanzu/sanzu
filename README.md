@@ -5,7 +5,7 @@ Python notes and IDE application for Android
 </a> 
 
 <p align="center">
-  <img src="cover.png" alt="cover" width="800">
+  <img src="cover.png" alt="Sanzu - Python notes & IDE for Android" width="800">
 </p>
 
 ## Download "Sanzu"
@@ -36,7 +36,7 @@ Added 150+ new comprehensive topics covering advanced concepts like decorators, 
 Full Changelog: https://github.com/heysanzu/sanzuPage/commits/Sanzu_v1.1
 
 <p align="left">
-  <img src="sanzu.gif" alt="Logo" width="100">
+  <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android" width="100">
 </p>
 
 👉 <a href="https://heysanzu.github.io/sanzuPage/" download>
@@ -45,5 +45,5 @@ Full Changelog: https://github.com/heysanzu/sanzuPage/commits/Sanzu_v1.1
 
 ---
 <p align="center">
-  Made for beginners, by <a href="https://github.com/heysanzu">heysanzu</a>
+  Made for beginners, by <a href="https://github.com/heysanzu">Shahnewaz Alam</a>
 </p>
