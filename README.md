@@ -13,9 +13,9 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
 
 **How to Use:**
 - `Download` the appropriate version for your device.
-- `Install` the app (on Android, `allow installation from unknown sources` if needed).
-- `Open` the app and start exploring `Python notes or use the compiler`.
-- Write your code in the editor, tap Run, and `see the output instantly`.
+- `Install` the app (on Android, allow installation from `unknown sources` if needed).
+- `Open` the app and start exploring `Python notes` or use the `compiler`.
+- Write your code in the `editor`, tap `Run`, and see the `output` instantly.
 
 ---
 
