@@ -28,7 +28,7 @@ We are excited to announce the release of Sanzu v1.1! This update introduces the
 Added 150+ new comprehensive topics covering advanced concepts like decorators, generators, and list comprehensions.
 
 ## Improvements
-**Faster Compiler:** Code execution is now up to 2× faster, featuring significantly improved output rendering for a smoother IDE experience.
+**Faster Compiler:** Code execution is now up to 2× faster, featuring significantly improved output rendering for a smoother IDE experience and Turtle graphics.
 
 ## Bug Fixes
 **Startup Stability:** Resolved a critical crash that affected some `Android 12` devices during a cold start.
