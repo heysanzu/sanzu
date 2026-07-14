@@ -28,8 +28,6 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
 ## Screenshots
 Discover the sleek, user-friendly interface of Sanzu. Swipe through the application screens to see the IDE, interactive Python notes, and the built-in AI assistant in action.
 
-*All features, including the compiler and notes, run completely offline. The Sanzu AI module provides intelligent coding suggestions and instant debugging assistance right on your Android device.*
-
 <p align="left">
   <img src="screenshots/screen1.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
   <img src="screenshots/screen2.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
