@@ -14,11 +14,11 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
 ## Screenshots
 
 <p align="left">
-  <img src="screenshots/screen1.png" width="180">
-  <img src="screenshots/screen2.png" width="180">
-  <img src="screenshots/screen3.png" width="180">
-  <img src="screenshots/screen4.png" width="180">
-  <img src="screenshots/screen5.png" width="180">
+  <img src="screenshots/screen1.jpg" width="180">
+  <img src="screenshots/screen2.jpg" width="180">
+  <img src="screenshots/screen3.jpg" width="180">
+  <img src="screenshots/screen4.jpg" width="180">
+  <img src="screenshots/screen5.jpg" width="180">
 </p>
 
 **How to Use:**
