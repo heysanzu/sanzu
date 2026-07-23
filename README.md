@@ -4,8 +4,6 @@ Python notes and IDE application for Android
   <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">see more</button>
 </a> 
 
-[![Deploy](https://github.com/heysanzu/sanzu/actions/workflows/static.yml/badge.svg)](https://github.com/heysanzu/sanzu/actions/workflows/static.yml)
-
 <p align="left">
   <img src="cover.png" alt="Sanzu - Python notes & IDE for Android" width="800">
 </p>
