@@ -29,14 +29,14 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
 Discover the sleek, user-friendly interface of Sanzu. Swipe through the application screens to see the IDE, interactive Python notes, and the built-in AI assistant in action.
 
 <p align="left">
-  <img src="screenshots/screen1.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen2.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen6.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen8.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen5.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen3.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen7.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
-  <img src="screenshots/screen9.jpg" alt="Sanzu - Python notes & IDE for Android" width="180">
+  <img src="screenshots/screen1.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen2.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen6.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen8.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen5.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen3.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen7.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen9.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen10.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
 </p>
 
