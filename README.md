@@ -32,7 +32,7 @@ Discover the sleek, user-friendly interface of Sanzu. Swipe through the applicat
   <img src="screenshots/screen1.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen2.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen6.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
-  <img src="screenshots/screen8.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
+  <img src="screenshots/screen11.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen5.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen3.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
   <img src="screenshots/screen7.jpg" alt="Sanzu - Python notes & IDE for Android" width="90">
