@@ -110,14 +110,40 @@
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
+      gap: 0.5rem;
     }
     .site-name { font-size: 2rem; font-weight: 600; }
-    .header-icon a {
-      color: #ffffff;
-      font-size: 2.2rem;
-      transition: color 0.2s;
+
+    /* ── HEADER NAV ── */
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
-    .header-icon a:hover { color: #cfcfcf; }
+    .header-nav-btn {
+      background: none;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 0.88rem;
+      padding: 0.35rem 0.9rem;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      white-space: nowrap;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .header-nav-btn:hover {
+      border-color: #ffffff;
+      background: rgba(255,255,255,0.1);
+    }
+    .header-nav-btn i {
+      font-size: 0.75rem;
+      opacity: 0.7;
+    }
 
     /* ── WHAT'S NEW BANNER ── */
     .whats-new-banner {
@@ -298,6 +324,70 @@
       text-align: center;
       color: #9ca3af;
       font-size: 0.8rem;
+    }
+
+    /* ── UPCOMING POPUP ── */
+    .upcoming-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .upcoming-list li {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+      padding: 0.8rem 1rem;
+      border-radius: 14px;
+      border: 1.5px solid #e5e7eb;
+      background: #fafafa;
+      transition: border-color 0.2s;
+    }
+    .upcoming-list li:hover { border-color: #000; }
+    .upcoming-icon {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 10px;
+      background: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+    .upcoming-text strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.1rem;
+    }
+    .upcoming-text span {
+      font-size: 0.82rem;
+      color: #6b7280;
+    }
+    .upcoming-version-label {
+      display: inline-block;
+      font-size: 0.7rem;
+      padding: 0.05rem 0.5rem;
+      border-radius: 40px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      background: #f3e8ff;
+      color: #7e22ce;
+    }
+    .upcoming-note {
+      margin-top: 1.2rem;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      background: #f9fafb;
+      border: 1.5px dashed #d1d5db;
+      font-size: 0.8rem;
+      color: #6b7280;
+      text-align: center;
+      line-height: 1.5;
     }
 
     /* ── MAIN ── */
@@ -654,7 +744,7 @@
     @media (max-width: 640px) {
       header { padding: 0.8rem 1.2rem; }
       .site-name { font-size: 1.8rem; }
-      .header-icon a { font-size: 2rem; }
+      .header-nav-btn { font-size: 0.78rem; padding: 0.3rem 0.7rem; }
       h1 { font-size: 2.5rem; }
       .tagline { font-size: 1rem; }
       .download-btn { font-size: 1.2rem; padding: 0.9rem 2rem; width: 100%; }
@@ -670,6 +760,7 @@
       .hero-icon { width: 3.5rem; }
       .screenshot-frame { width: 110px; }
       .review-card { width: 210px; }
+      .header-nav-btn span.btn-label { display: none; }
     }
   </style>
 </head>
@@ -728,13 +819,77 @@
     </div>
   </div>
 
+  <!-- ── UPCOMING POPUP ── -->
+  <div class="overlay" id="upcomingOverlay" onclick="closeUpcomingOnOverlay(event)">
+    <div class="popup" id="upcomingPopup">
+      <button class="popup-close" onclick="closeUpcoming()" aria-label="Close">✕</button>
+
+      <div class="popup-header">
+        <h2>Upcoming</h2>
+        <span class="version-tag">v1.2</span>
+      </div>
+
+      <ul class="upcoming-list">
+        <li>
+          <div class="upcoming-icon"><i class="fas fa-palette"></i></div>
+          <div class="upcoming-text">
+            <strong>Dark Mode <span class="upcoming-version-label">v1.2</span></strong>
+            <span>Full dark theme across notes, compiler, and AI — easier on the eyes at night.</span>
+          </div>
+        </li>
+        <li>
+          <div class="upcoming-icon"><i class="fas fa-history"></i></div>
+          <div class="upcoming-text">
+            <strong>Code History <span class="upcoming-version-label">v1.2</span></strong>
+            <span>Save and revisit previously written snippets from the compiler screen.</span>
+          </div>
+        </li>
+        <li>
+          <div class="upcoming-icon"><i class="fas fa-search"></i></div>
+          <div class="upcoming-text">
+            <strong>Global Search <span class="upcoming-version-label">v1.2</span></strong>
+            <span>Search across notes, examples, and articles from a single bar.</span>
+          </div>
+        </li>
+        <li>
+          <div class="upcoming-icon"><i class="fas fa-language"></i></div>
+          <div class="upcoming-text">
+            <strong>Hindi Notes <span class="upcoming-version-label">v1.2</span></strong>
+            <span>Core Python topics available in Hindi for learners more comfortable in their native language.</span>
+          </div>
+        </li>
+      </ul>
+
+      <div class="upcoming-note">
+        Features planned — subject to change.<br>Follow <a href="https://github.com/heysanzu/sanzu" target="_blank" rel="noopener noreferrer" style="color:#374151;">github.com/heysanzu/sanzu</a> for updates.
+      </div>
+
+      <div class="popup-footer">Coming soon · <a href="https://github.com/heysanzu" target="_blank" rel="noopener noreferrer" style="color:#374151;">@heysanzu</a></div>
+    </div>
+  </div>
+
   <header>
     <div class="site-name">Sanzu</div>
-    <div class="header-icon">
-      <a href="https://github.com/heysanzu/sanzu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-        <i class="fab fa-github"></i>
+    <nav class="header-nav" aria-label="Site navigation">
+      <a
+        href="https://github.com/heysanzu/sanzu/releases"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="header-nav-btn"
+        aria-label="Previous versions on GitHub"
+      >
+        <i class="fas fa-history"></i>
+        <span class="btn-label">Versions</span>
       </a>
-    </div>
+      <button
+        class="header-nav-btn"
+        onclick="openUpcoming()"
+        aria-label="Upcoming features"
+      >
+        <i class="fas fa-rocket"></i>
+        <span class="btn-label">Upcoming</span>
+      </button>
+    </nav>
   </header>
 
   <main>
@@ -944,7 +1099,7 @@
   </main>
 
   <script>
-    /* ── POPUP ── */
+    /* ── CHANGELOG POPUP ── */
     function openPopup() {
       document.getElementById('overlay').classList.add('open');
       document.body.style.overflow = 'hidden';
@@ -960,8 +1115,25 @@
       e.stopPropagation();
       document.getElementById('newsBanner').style.display = 'none';
     }
+
+    /* ── UPCOMING POPUP ── */
+    function openUpcoming() {
+      document.getElementById('upcomingOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeUpcoming() {
+      document.getElementById('upcomingOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    function closeUpcomingOnOverlay(e) {
+      if (e.target === document.getElementById('upcomingOverlay')) closeUpcoming();
+    }
+
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closePopup();
+      if (e.key === 'Escape') {
+        closePopup();
+        closeUpcoming();
+      }
     });
 
     /* ── SCREENSHOT CAROUSEL AUTO-SCROLL ── */
