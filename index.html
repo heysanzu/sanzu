@@ -224,9 +224,6 @@
     }
 
     .popup-close {
-      position: absolute;
-      top: 1rem;
-      right: 1.1rem;
       background: #f3f4f6;
       border: none;
       border-radius: 50%;
@@ -239,6 +236,7 @@
       justify-content: center;
       color: #555;
       transition: background 0.2s, color 0.2s;
+      flex-shrink: 0;
     }
     .popup-close:hover { background: #000; color: #fff; }
 
@@ -260,9 +258,9 @@
       font-size: 0.75rem;
       padding: 0.15rem 0.65rem;
       border-radius: 40px;
-      margin-left: auto;
       white-space: nowrap;
       flex-shrink: 0;
+      margin-left: auto;
     }
 
     /* ── CHANGELOG ENTRIES ── */
@@ -777,11 +775,10 @@
   <!-- ── CHANGELOG POPUP ── -->
   <div class="overlay" id="overlay" onclick="closePopupOnOverlay(event)">
     <div class="popup" id="popup">
-      <button class="popup-close" onclick="closePopup()" aria-label="Close">✕</button>
-
       <div class="popup-header">
         <h2>What's New</h2>
-        <span class="version-tag"></span>
+        <span class="version-tag">v1.1</span>
+        <button class="popup-close" onclick="closePopup()" aria-label="Close">✕</button>
       </div>
 
       <ul class="changelog">
@@ -822,11 +819,10 @@
   <!-- ── UPCOMING POPUP ── -->
   <div class="overlay" id="upcomingOverlay" onclick="closeUpcomingOnOverlay(event)">
     <div class="popup" id="upcomingPopup">
-      <button class="popup-close" onclick="closeUpcoming()" aria-label="Close">✕</button>
-
       <div class="popup-header">
         <h2>Upcoming</h2>
         <span class="version-tag">v1.2</span>
+        <button class="popup-close" onclick="closeUpcoming()" aria-label="Close">✕</button>
       </div>
 
       <ul class="upcoming-list">
