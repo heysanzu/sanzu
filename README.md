@@ -15,7 +15,7 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
   <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android" width="100">
 </p>
 
-➠ <a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.1/sanzu.apk" download>
+➠ <a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk" download>
   <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">Download</button>
 </a>
 
