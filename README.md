@@ -1,8 +1,8 @@
 # Sanzu App
 Python notes and IDE application for Android
-<a href="https://github.com/heysanzu/sanzu/blob/main/README.md#download-sanzu" download>
+(<a href="https://github.com/heysanzu/sanzu/blob/main/README.md#download-sanzu" download>
   <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">see more</button>
-</a> 
+</a>) 
 
 <p align="left">
   <img src="cover.png" alt="Sanzu - Python notes & IDE for Android" width="800">
@@ -43,11 +43,17 @@ Discover the sleek, user-friendly interface of Sanzu. Swipe through the applicat
 
 ---
 
-## Release: Sanzu v1.1
-We are excited to announce the release of Sanzu v1.1! This update introduces the brand-new Sanzu AI, major compiler speed improvements, expanded study materials, and critical stability fixes to enhance your Python coding experience.
+## Release: Sanzu v1.2
+We are excited to announce the release of Sanzu v1.2! This update introduces the brand-new Sanzu AI, major compiler speed improvements, expanded study materials, and critical stability fixes to enhance your Python coding experience.
 
 ## What's New
-**Sanzu AI:** Meet your new built-in `Python assistant`. You can now ask questions, get instant explanations, and debug your code directly within the app.
+1. **Sanzu AI:** Meet your new built-in Python assistant. You can now ask questions, get instant explanations, and debug your code directly within the app.
+
+2. **Global Search:** Find anything instantly. Search across notes, examples, and articles from a single unified search bar.
+
+3. **PIP Installer:** Install any Python package directly from within Sanzu — no terminal required.
+
+4. **Dark Mode:** Sanzu now features a full dark theme across notes, compiler, and AI — easier on the eyes during those late-night coding sessions.
 
 Added 150+ new comprehensive topics covering advanced concepts like decorators, generators, and list comprehensions.
 
@@ -57,7 +63,7 @@ Added 150+ new comprehensive topics covering advanced concepts like decorators, 
 ## Bug Fixes
 **Startup Stability:** Resolved a critical crash that affected some `Android 12` devices during a cold start.
 
-Full Changelog: https://github.com/heysanzu/sanzu/commits/Sanzu_v1.1
+Full Changelog: https://github.com/heysanzu/sanzu/commits/Sanzu_v1.2
 
 ---
 
