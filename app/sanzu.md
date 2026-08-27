@@ -1,1 +1,1 @@
-Download the apk and install
+`Download` the apk and install
