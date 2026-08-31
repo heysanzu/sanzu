@@ -12,7 +12,7 @@ Python notes and IDE application for Android
 This app combines comprehensive Python notes with a built‑in compiler, so you can study and practice anywhere, without an internet connection.
 
 <p align="left">
-  <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android" width="100">
+  <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android devices" width="100">
 </p>
 
 ➠ <a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk" download>
