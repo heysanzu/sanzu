@@ -1,8 +1,7 @@
 # Sanzu App
-Python notes and IDE application for Android
-(<a href="https://github.com/heysanzu/sanzu/blob/main/README.md#download-sanzu" download>
-  <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">see more</button>
-</a>) 
+Python notes and IDE application for Android devices
+
+[![See More](https://img.shields.io/badge/See%20More-grey?style=for-the-badge&labelColor=black)](https://heysanzu.github.io/sanzu/)
 
 <p align="left">
   <img src="cover.png" alt="Sanzu - Python notes & IDE for Android" width="800">
@@ -15,9 +14,7 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
   <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android devices" width="100">
 </p>
 
-➠ <a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk" download>
-  <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">Download</button>
-</a>
+[![Download](https://img.shields.io/badge/Download-grey?style=for-the-badge&logoColor=black&labelColor=black)](https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk)
 
 **How to Use:**
 - `Download` the appropriate version for your device.
@@ -68,7 +65,7 @@ Full Changelog: https://github.com/heysanzu/sanzu/commits/Sanzu_v1.2
 ---
 
 ## Contribution & Feedback
-If you enjoy Sanzu, please consider:
+If you enjoy Sanzu, please consider
 
 **Reporting Issues:** If you encounter a crash or bug, please open an issue in this repository.
 
