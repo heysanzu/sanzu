@@ -1,9 +1,12 @@
 # Sanzu App
-Python notes and IDE application for Android devices
+* Sanzu is an offline Python learning and development environment designed for Android devices. 
 
-[![See More](https://img.shields.io/badge/See%20More-grey?style=for-the-badge&labelColor=black)](https://heysanzu.github.io/sanzu/)
+* It pairs comprehensive Python study notes with a built-in interactive compiler and IDE, allowing users to write, test, and practice code directly on their mobile devices without needing an internet connection.
 
-![Thumbnail](cover.png)
+[![Visit Website](https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://heysanzu.github.io/sanzu/)
+[![Download App](https://img.shields.io/badge/Download-App-green?style=for-the-badge&logo=android&logoColor=white)](https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/Sanzu.apk)
+
+![Thumbnail](src/sanzuUI.png)
 
 ## Download "Sanzu"
 This app combines comprehensive Python notes with a built‑in compiler, so you can study and practice anywhere, without an internet connection.
@@ -12,13 +15,15 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
   <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android devices" width="100">
 </p>
 
-[![Download](https://img.shields.io/badge/Download-grey?style=for-the-badge&logoColor=black&labelColor=black)](https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk)
+[![Download Sanzu](https://img.shields.io/badge/Download-Sanzu-black?style=for-the-badge&logo=android&Color=white&labelColor=grey)](https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk)
 
+```
 **How to Use:**
-- `Download` the appropriate version for your device.
-- `Install` the app (on Android, allow installation from `unknown sources` if needed).
-- `Open` the app and start exploring `Python notes` or use the `compiler`.
-- Write your code in the `editor`, tap `Run`, and see the `output` instantly.
+1 `Download` the appropriate version for your device.
+2 `Install` the app (on Android, allow installation from `unknown sources` if needed).
+3 `Open` the app and start exploring `Python notes` or use the `compiler`.
+4 Write your code in the `editor`, tap `Run`, and see the `output` instantly.
+```
 
 ## Screenshots
 Discover the sleek, user-friendly interface of Sanzu. Swipe through the application screens to see the IDE, interactive Python notes, and the built-in AI assistant in action.
