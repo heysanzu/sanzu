@@ -6,8 +6,8 @@
 <p align="center">
   <a href="https://heysanzu.github.io/sanzu/">
     <img src="https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Website" />
-    
   </a>
+  
   <a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/Sanzu.apk">
     <img src="https://img.shields.io/badge/Download-App-green?style=for-the-badge&logo=android&logoColor=white" alt="Download App" />
   </a>
@@ -56,7 +56,9 @@ This app combines comprehensive Python notes with a built‑in compiler, so you 
   <img src="sanzu.gif" alt="Sanzu - Python notes & IDE for Android devices" width="100">
 </p>
 
-[![Download Sanzu](https://img.shields.io/badge/Download-Sanzu-black?style=for-the-badge&logo=android&Color=white&labelColor=grey)](https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/sanzu.apk)
+<a href="https://github.com/heysanzu/sanzu/releases/download/Sanzu_v1.2/Sanzu.apk">
+    <img src="https://img.shields.io/badge/Download-Sanzu-black?style=for-the-badge&logo=android&logoColor=white" alt="Download App" />
+</a>
 
 **How to Use:**
 
