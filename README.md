@@ -1,7 +1,7 @@
 # Sanzu App
-* Sanzu is an offline Python learning and development environment designed for Android devices. 
+Sanzu is an offline Python learning and development environment designed for Android devices. 
 
-* It pairs comprehensive Python study notes with a built-in interactive compiler and IDE, allowing users to write, test, and practice code directly on their mobile devices without needing an internet connection.
+It pairs comprehensive Python study notes with a built-in interactive compiler and IDE, allowing users to write, test, and practice code directly on their mobile devices without needing an internet connection.
 
 <p align="center">
   <a href="https://heysanzu.github.io/sanzu/">
